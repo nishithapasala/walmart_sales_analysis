@@ -67,6 +67,57 @@ Profit Margins: Which branches and product categories are the most profitable?
 
 Example SQL Query: (Finding the top 5 branches with the highest revenue decrease)
 
+# Power BI Dashboard & Visualization
+
+After performing the Python-based preprocessing and SQL-based exploratory analysis, the cleaned
+
+Walmart sales dataset was loaded into Power BI to design an interactive, business-focused 
+
+dashboard. The aim was to create a visual analytics layer that complements the SQL findings and 
+
+supports quick decision-making.
+
+## Key Dashboard Components:
+
+## KPI Cards
+
+Total Sales: 128.91K
+
+Average Profit Margin: 39.58%
+
+Total Quantity Sold: 2,345
+These provide instant top-level metrics for business performance.
+
+## Time-based Filtering
+
+A Year slicer (2019–2023) allows the entire dashboard to dynamically update for the selected period.
+
+## Visuals Created
+
+Pie Chart – Rating by City: Shows customer satisfaction distribution across cities.
+
+Line Chart – Sales by Month: Identifies monthly sales trends and seasonal patterns.
+
+Clustered Bar Chart – Sales by Category: Highlights revenue performance of different product categories.
+
+Bar Chart – Sales by City: Displays top-performing cities in terms of sales volume.
+
+Tree Map – Profit Margin by Category: Visualizes contribution of each product category to overall profitability.
+
+Donut Chart – Unit Price by Branch: Compares average unit price distribution across store branches.
+
+## Design Choices
+
+Dark theme with high-contrast colors to make metrics pop.
+
+Consistent formatting for better readability.
+
+Slicers and cross-filtering enabled for interactive exploration.
+
+## Impact
+Stakeholders can track KPIs, drill into specific product categories, identify underperforming 
+
+branches, and spot seasonal sales fluctuations within seconds.
 ## Project Documentation and Publishing
 
 Maintain Documentation:
